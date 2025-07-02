@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleadvance.css">
+    <title>Busqueda Avanzada</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+      <ul class="items">
+        <li><a href="index.html">Google</a></li>
+        <li><a href="images.html">Imagenes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="h1-container">
+    <h1>Búsqueda avanzada</h1>
+  </div>
+  <div class="divider"></div>
+
+  <main>
+    <form action="https://www.google.com/search" method="get">
+        <div class="inputs-container">
+            <div class="input-group">
+                <span>Mostrar páginas que contengan...</span>
+            </div>
+            <div class="input-group">
+                <label for="01">todas estas palabras:</label>
+                <input class="form-input" id="01" type="text" name="as_q">
+            </div>
+            <div class="input-group">
+                <label for="02">esta palabra o frase exacta:</label>
+                <input class="form-input" id="02" type="text" name="as_epq">
+            </div>
+            <div class="input-group">
+                <label for="03">cualquiera de estas palabras:</label>
+                <input class="form-input" id="03" type="text" name="as_oq">
+            </div>
+            <div class="input-group">
+                <label for="04">ninguna de estas palabras:</label>
+                <input class="form-input" id="04" type="text" name="as_eq">
+            </div>
+        </div>
+        <div class="button-container">
+            <div class="button-div">
+                <input type="submit" value="Búsqueda avanzada">
+            </div>
+        </div>
+    </form>
+
+  <div class="divider"></div>
+  </main>
+</body>
+</html>
