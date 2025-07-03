@@ -35,11 +35,11 @@ Repositorio con el primer projecto (Project0) del módulo de web de cs50
 
 <div>
     <ul>
-        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/index.html">index.html, búsqueda normal con Google</a></li>
-        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/images.html">images.html, página de búsqueda de imagenes</a></li>
-        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/advance.html">advance.html, página de búsqueda avanzada</a></li>
-        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/style.css">style.css, estilos para index y para images</a></li>
-        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/styleadvance.css">styleadvance.css, estilo para advance</a></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/index.html">index.html</a><p>, búsqueda normal con Google</p></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/images.html">images.html</a><p>, búsqueda de imágenes con Google</p></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/advance.html">advance.html</a><p>, búsqueda avanzada con Google</p></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/style.css">style.css</a><p>, estilo para index e images</p></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/styleadvance.css">styleadvance.css</a><p>, estilo para advance</p></li>
     </ul>
 </div>
 
