@@ -33,20 +33,15 @@ Repositorio con el primer projecto (Project0) del módulo de web de cs50
 
 ## Estructura
 
-- index.html
-    Página principal, búsqueda normal con Google
-
-- images.html
-    Página de búsqueda de images
-
-- advance.html
-    Página de búsqueda avanzada
-
-- style.css
-    Estilo para index.html y para images.html
-
-- styleadvance.css
-    Estilo para advance.html
+<div>
+    <ul>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/index.html">index.html, búsqueda normal con Google</a></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/images.html">images.html, página de búsqueda de imagenes</a></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/advance.html">advance.html, página de búsqueda avanzada</a></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/style.css">style.css, estilos para index y para images</a></li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/styleadvance.css">styleadvance.css, estilo para advance</a></li>
+    </ul>
+</div>
 
 ## Autores
 
