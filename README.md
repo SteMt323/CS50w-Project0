@@ -36,7 +36,7 @@ Repositorio con el primer projecto (Project0) del módulo de web de cs50
 <div>
     <ul>
         <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/index.html">index.html</a>, búsqueda normal con Google</li>
-        <li><a href = "https://github.com/SteMt323/CS50w-roject0/blob/main/images.html">images.html</a>, búsqueda de imágenes con Google</li>
+        <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/images.html">images.html</a>, búsqueda de imágenes con Google</li>
         <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/advance.html">advance.html</a>, búsqueda avanzada con Google</li>
         <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/style.css">style.css</a>, estilo para index e images</li>
         <li><a href = "https://github.com/SteMt323/CS50w-Project0/blob/main/styleadvance.css">styleadvance.css</a>, estilo para advance</li>
