@@ -56,12 +56,6 @@ nav {
     margin-bottom: 2rem;
 }
 
-.google_letters img {
-    width: 100%;
-    max-width: 25rem;
-    height: auto;
-}
-
 form {
     width: 80%;
     display: flex;
