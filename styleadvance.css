@@ -1,4 +1,5 @@
 body {
+    flex-direction: column;
     margin: 0;
     background-size: cover;
     background-attachment: fixed;
@@ -69,6 +70,7 @@ main {
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
+    padding-bottom: 25%;
 }
 
 form{
@@ -100,7 +102,7 @@ span{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    gap: 1.5rem;
+    gap: 0rem;
 }
 
 .input-group label {
@@ -108,12 +110,14 @@ span{
     text-align: left;
     color: #969ba1;
     font-size: 1rem;
+    width: 100%;
+    max-width: 14rem;
 }
 
 .input-group input{
     display: flex;
     width: 100%;
-    max-width: 40rem;
+    max-width: 50rem;
     height: 2.2rem;
     text-align: left;
     border-radius: 3px;
@@ -126,7 +130,7 @@ span{
 }
 
 .input-group .form-input {
-    flex: 2;
+    flex: 3;
     width: 100%;
     min-width: 0;
 }
@@ -161,6 +165,10 @@ span{
     background-color: #8ab4f8;
 }
 
+.button-div input:hover {
+    background-color: #b7d3ff;
+}
+
 @media (max-width: 700px) {
     .input-group {
         flex-direction: column;
@@ -175,4 +183,17 @@ span{
         max-width: 100%;
         justify-content: flex-end;
     }
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
 }
