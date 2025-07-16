@@ -6,8 +6,6 @@ body {
     position: relative;
     background-size: cover;
     background-attachment: fixed;
-    text-align: center;
-    overflow: hidden;
     font-family: 'Arial', sans-serif;
     background-color: #202124;
 }
@@ -18,6 +16,7 @@ main {
     justify-content: center;
     align-items: center;
     flex: 1;
+    padding-bottom: 8rem; 
 }
 
 nav {
@@ -68,14 +67,18 @@ form {
     width: 100%;
     max-width: 45rem;
     height: 4rem;
-    padding-left: 1.5rem;
+    padding-left: 3.5rem; 
     text-align: left;
     border-radius: 30px;
     border-style: none;
     font-size: 1rem;
-    background-color:#4d5156;
+    background-color: #4d5156;
     color: #fff;
     box-sizing: border-box;
+    background-image: url(resources/search-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: 1rem center;
+    background-size: 1.2rem 1.2rem;
 }
 
 .form-input:hover{
@@ -132,4 +135,102 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #171717;
+    z-index: 100;
+}
+
+.divider{
+    display: block;
+    background-color: #444;
+    width: 100%;
+    height: 0.3px;
+}
+
+footer div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.idk{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 5rem;
+    color:#fff;
+    font: bold;
+    font-size: 1.1rem;
+}
+.section-1{
+    padding-left: 3rem;
+}
+
+.section-2 {
+    padding-right: 3rem;
+    justify-content: flex-end;
+}
+.section-1 a, .section-2 a{
+    font-size: 1.1rem;
+    font: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+.section-1 a:hover, .section-2 a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    main {
+        padding-bottom: 8rem; 
+    }
+    footer {
+        height: 10rem;
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    nav {
+        height: 3rem;
+    }
+    .form-input {
+        height: 3rem;
+        font-size: 0.9rem;
+    }
+    .form-submit {
+        width: 8rem;
+        font-size: 0.7rem;
+    }
+
+    .idk {
+        padding-left: 1rem;
+        justify-content: start;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .divider {
+        margin: 0.5rem 0;
+    }
+    .section-container {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    .section-1, .section-2 {
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    .section-1 a, .section-2 a {
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
 }
