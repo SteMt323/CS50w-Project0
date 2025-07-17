@@ -76,7 +76,7 @@ main {
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
 }
 
 form{
@@ -228,7 +228,28 @@ footer div{
     height: 100%;
     width: 100%;
     padding-top: 2rem;
-    padding-left: 4.3rem;
+}
+
+.tmb-1 span{
+    padding-left: 4rem;
+    color: #999;
+}
+
+.tmb-2 li{
+    list-style: none;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.tmb-2 a{
+    text-decoration: none;
+    color: #000;
+    font:bold;
+}
+
+.tmb-2 a:hover{
+    text-decoration: underline;
+    color:#5668b4;
 }
 
 @media (max-width: 700px) {
